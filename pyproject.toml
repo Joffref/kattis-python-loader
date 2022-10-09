@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kattis-python-loader"
+
+version = "0.1.0"
+description = "A quick script to automate kattis local test."
+authors = [
+    "Mathis Joffre <mariusjoffre@gmail.com>",
+    "Benoit Deveaux <contact.flapili@gmail>"
+    ]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = "^0.6.1"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
